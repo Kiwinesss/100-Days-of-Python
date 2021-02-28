@@ -22,7 +22,7 @@ print(f"{row1}\n{row2}\n{row3}")
 
 ##########################################
 
-This below was my first attemp, many lines of ugliness
+#This below was my first attemp, many lines of ugliness
 
 ##########################################
 
