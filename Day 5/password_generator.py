@@ -23,7 +23,13 @@ for number in range(0,nr_numbers):
 for symbol in range(0,nr_symbols):
     characters += random.choice(symbols)
 
-print(characters) # temporary command, will be removed when part two of the code is created
+#randomise the order of the created password.
 
-#randomise the order of the created password. WIP
+char_list = list(characters) # convert string into list
+
+random.shuffle(char_list)
+
+final_str = ''.join(char_list) # convert list to string
+
+print(final_str)
 
