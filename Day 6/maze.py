@@ -1,3 +1,5 @@
+#The maze challenge at https://reeborg.ca/
+
 def turn_right():
     turn_left()
     turn_left()
