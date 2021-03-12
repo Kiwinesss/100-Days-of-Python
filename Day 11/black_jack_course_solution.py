@@ -1,3 +1,7 @@
+#This is a copy of the course solution which I could not get to work for me :(
+
+
+
 ############### Blackjack Project #####################
 
 #Difficulty Normal 😎: Use all Hints below to complete the project.
