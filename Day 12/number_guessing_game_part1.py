@@ -24,28 +24,26 @@ game_type = input("Would you like to play the easy way or the hard way? Type (ea
 
 game_play = True
 
-while game_play == True:
-    if game_type == "easy": # this will take the user through the easy route with 10 guesses
-        for num in range(1,11):
-            guess_num = int(input("What number do you guess?: "))
-            if  guess_num > ai_num:
-                print("Too high")
-            elif guess_num < ai_num:
-                print("Too low!")
-            else:
-                print("You guessed it!")
-    elif game_type == "hard": # this will take the user through the hard route with only 5 guesses
-        for num in range(1,6):
-            guess_num = int(input("What number do you guess?: "))
-            if  guess_num > ai_num:
-                print("Too high")
-            elif guess_num < ai_num:
-                print("Too low!")
-            else:
-                print("You guessed it!")
-                
-                
-                
+if game_type == "easy": # this will take the user through the easy route with 10 guesses
+    for num in range(1,11):
+        guess_num = int(input("What number do you guess?: "))
+        if  guess_num > ai_num:
+            print("Too high")
+        elif guess_num < ai_num:
+            print("Too low!")
+        else:
+            print("You guessed it!")
+            break
+elif game_type == "hard": # this will take the user through the hard route with only 5 guesses
+    for num in range(1,6):
+        guess_num = int(input("What number do you guess?: "))
+        if  guess_num > ai_num:
+            print("Too high")
+        elif guess_num < ai_num:
+            print("Too low!")
+        else:
+            print("You guessed it!")
+            break
 
 
 
