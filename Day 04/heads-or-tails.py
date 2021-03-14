@@ -10,3 +10,8 @@ if toss_result == 0:
 else:
   print("Tails")
   
+
+  
+  
+  
+  
