@@ -8,3 +8,7 @@ for n in range(0, len(student_heights)):
 average = sum(student_heights) / len(student_heights) # add and divide the list
 
 print("The average height is ", round(average)) # print out the rounded result
+
+
+
+
