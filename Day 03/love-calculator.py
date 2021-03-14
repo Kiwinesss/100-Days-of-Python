@@ -29,3 +29,8 @@ elif total >= 40 and total <= 50:
   print(f"Your score is {total}. You are alright together.")
 else:
   print(f"Your score is {total}.")
+
+  
+  
+  
+  
