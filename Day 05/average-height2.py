@@ -7,3 +7,7 @@ for n in range(0, len(student_heights)):
 
 avg = statistics.mean(student_heights)
 print("The average student height is ", round(avg)) # print out the rounded result
+
+
+
+
