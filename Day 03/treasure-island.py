@@ -40,3 +40,10 @@ if direction == "left":
 else:
   print("Whoops, you fell into a hole. Game over!")  
 exit()
+
+
+
+
+
+
+
