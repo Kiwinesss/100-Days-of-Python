@@ -127,3 +127,10 @@ while is_game_active == True:
 clear()
 print(logo)
 print("Thanks for playing!")
+
+
+
+
+
+
+
