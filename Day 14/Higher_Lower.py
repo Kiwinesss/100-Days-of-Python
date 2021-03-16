@@ -1,7 +1,9 @@
 from game_data import data
 from art import logo, vs
-from replit import clear
 import random
+import os
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
 
 score = 0
 def random_name():
@@ -18,7 +20,7 @@ def user_information():
 current_answer = False                                                                   
  
 def calculation(score,name1,description1,country1, follower_count1,name2,description2,country2,follower_count2):
-      clear()
+      cls()
       print(logo)
       if current_answer == True:
         score += 1
@@ -60,11 +62,10 @@ while current_answer == True:
     current_answer = False
  
 if current_answer == False:
-  clear()
+  cls()
   print(logo)
   print(f"Sorry, that's wrong. Final score: {score}")
   
   
   
   
- 
